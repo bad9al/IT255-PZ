@@ -1,0 +1,15 @@
+<div class="centered-content">
+    <div class="modal-box">
+        <h1 class="title">
+            Kreiraj novu listu
+        </h1>
+
+        <input #listTitleInput class="input has-background-light is-medium" type="text" placeholder="Ime liste...">
+    <br><br>
+
+<div class="buttons is-right">
+<button class="button is-medium" routerLink="/">Nazad</button>
+<button class="button is-primary is-medium" (click)="createList(listTitleInput.value)">Kreiraj</button>
+
+    </div>
+</div>
